@@ -1,0 +1,14 @@
+body { padding-top: 56px; }
+
+.hero {
+    min-height: 90vh;
+    background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+                url('../img/banner.jpg') center/cover;
+    color: #fff;
+}
+
+.produk-card { transition: transform .2s, box-shadow .2s; cursor: pointer; }
+.produk-card:hover { transform: translateY(-6px); box-shadow: 0 8px 20px rgba(0,0,0,.2); }
+.produk-card img { height: 220px; object-fit: cover; }
+
+html { scroll-behavior: smooth; }
