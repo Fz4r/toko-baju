@@ -1,5 +1,8 @@
 <?php
+// Variable 'conn' untuk koneksi ke database web server di laragon
 $conn = mysqli_connect("localhost", "root", "", "toko_baju");
+
+// Logika untuk mengecek apakah database sudah terkoneksi atau belum, Jika belum koneksi gagal
 if (!$conn) {
     die("Koneksi gagal: " . mysqli_connect_error());
 }
